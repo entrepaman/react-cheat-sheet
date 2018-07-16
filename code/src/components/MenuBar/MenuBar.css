@@ -1,0 +1,24 @@
+.MenuBar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    background-color: #282c34;
+    z-index: 99;
+}
+
+.MenuBar > p {
+    color: #61dafb;
+    font-size: 1.5rem;
+}
+
+.MenuBar > p > a {
+    float: right;
+    margin: -6px 11px;
+}
+
+.MenuBar > p > a > img {
+    width: 40px;
+}

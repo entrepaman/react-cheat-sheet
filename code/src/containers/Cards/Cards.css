@@ -1,0 +1,9 @@
+.Cards {
+    margin: 0 auto;
+    width: 98%;
+}
+
+.noCardFound {
+    font-size: 1.8rem;
+    color: #fff;
+}

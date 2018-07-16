@@ -1,0 +1,31 @@
+.Card {
+    display: inline-block;
+    background-color: #fff;
+    margin: 15px;
+    width: 30%;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.head {
+    background-color: #282c34;
+    color: #fff;
+    padding: 8px 0px;
+    margin-top: 4px;
+}
+
+.codes {
+    text-align: left;
+    padding: 0 8px;
+}
+
+.codes Pre {
+    padding: 14px !important;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.hidden {
+    display: none;
+}
