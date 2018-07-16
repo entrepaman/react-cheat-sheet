@@ -2,7 +2,7 @@
     display: flow-root;
     background-color: #fff;
     margin: 3em auto;
-    width: 55%;
+    width: 90%;
     border-radius: 5px;
     white-space: pre-wrap;
     word-break: break-word;
@@ -28,4 +28,22 @@
 
 .hidden {
     display: none;
+}
+
+@media (min-width: 700px) {
+    .Card {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .Card {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Card {
+        width: 40%;
+    }
 }
