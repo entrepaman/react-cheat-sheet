@@ -1,0 +1,64 @@
+1,1,npm i --save react,2018-07-16,NULL
+2,1,npm i --save react-dom,2018-07-16,NULL
+3,2,// hello.js,2018-07-16,NULL
+4,2,,2018-07-16,NULL
+5,2,import React from 'react';,2018-07-16,NULL
+6,2,const hello = () => {,2018-07-16,NULL
+7,2,    return (,2018-07-16,NULL
+8,2,        <h1>Hello Everyone!</h1>,2018-07-16,NULL
+9,2,    );,2018-07-16,NULL
+10,2,},2018-07-16,NULL
+11,2,,2018-07-16,NULL
+12,2,export default hello;,2018-07-16,NULL
+13,2,,2018-07-16,NULL
+14,2,// helloAgain.js,2018-07-16,NULL
+15,2,,2018-07-16,NULL
+16,2,import React from 'react';,2018-07-16,NULL
+17,2,const helloAgain = (props) => {,2018-07-16,NULL
+18,2,    return (,2018-07-16,NULL
+19,2,        <h1>Hello {props.name}!</h1>,2018-07-16,NULL
+20,2,    );,2018-07-16,NULL
+21,2,},2018-07-16,NULL
+22,2,,2018-07-16,NULL
+23,2,export default helloAgain;,2018-07-16,NULL
+24,2,,2018-07-16,NULL
+25,2,// using the components,2018-07-16,NULL
+26,2,import Hello from 'path-to-the-file/hello';,2018-07-16,NULL
+27,2,import HelloAgain from 'path-to-the-file/helloAgain';,2018-07-16,NULL
+28,2,,2018-07-16,NULL
+29,2,<Hello />,2018-07-16,NULL
+30,2,"<HelloAgain name=""Aryan"" />",2018-07-16,NULL
+31,3,// hello.js,2018-07-16,NULL
+32,3,,2018-07-16,NULL
+33,3,"import React, { Component } from 'react';",2018-07-16,NULL
+34,3,,2018-07-16,NULL
+35,3,class Hello extends Component {,2018-07-16,NULL
+36,3,    render() {,2018-07-16,NULL
+37,3,       return (,2018-07-16,NULL
+38,3,          <h1>Hello Everyone!</h1>,2018-07-16,NULL
+39,3,       );,2018-07-16,NULL
+40,3,    },2018-07-16,NULL
+41,3,},2018-07-16,NULL
+42,3,,2018-07-16,NULL
+43,3,export default Hello;,2018-07-16,NULL
+44,3,,2018-07-16,NULL
+45,3,// helloAgain.js,2018-07-16,NULL
+46,3,,2018-07-16,NULL
+47,3,"import React, { Component } from 'react';",2018-07-16,NULL
+48,3,,2018-07-16,NULL
+49,3,class HelloAgain extends Component {,2018-07-16,NULL
+50,3,    render() {,2018-07-16,NULL
+51,3,        return (,2018-07-16,NULL
+52,3,            <h1>Hello {this.props.name}!</h1>,2018-07-16,NULL
+53,3,        );,2018-07-16,NULL
+54,3,    },2018-07-16,NULL
+55,3,},2018-07-16,NULL
+56,3,,2018-07-16,NULL
+57,3,export default HelloAgain;,2018-07-16,NULL
+58,3,,2018-07-16,NULL
+59,3,// using the components,2018-07-16,NULL
+60,3,import Hello from 'path-to-the-file/hello';,2018-07-16,NULL
+61,3,import HelloAgain from 'path-to-the-file/helloAgain';,2018-07-16,NULL
+62,3,,2018-07-16,NULL
+63,3,<Hello />,2018-07-16,NULL
+64,3,"<HelloAgain name=""Nick"" />",2018-07-16,NULL

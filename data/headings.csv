@@ -1,0 +1,16 @@
+1,installing react,2018-07-16,NULL
+2,component (functional),2018-07-16,NULL
+3,component (class),2018-07-16,NULL
+4,states and props,2018-07-16,NULL
+5,setState (safely),2018-07-16,NULL
+6,styling,2018-07-16,NULL
+7,styling using custom modules,2018-07-16,NULL
+8,event handling,2018-07-16,NULL
+9,defaults,2018-07-16,NULL
+10,lists,2018-07-16,NULL
+11,lifecycles,2018-07-16,NULL
+12,propTypes,2018-07-16,NULL
+13,lazy loading,2018-07-16,NULL
+14,higher order component (hoc),2018-07-16,NULL
+15,fetching from server [axios],2018-07-16,NULL
+16,Router [react-router-dom],2018-07-16,NULL

@@ -7,16 +7,9 @@ import classes from './Card.css';
 class Card extends Component {
     render() {
         let code = ``;
-        console.log(this.props.content);
         const content = this.props.content.content;
         for(let i = 0; i < content.length; i++) {
-            if(content.includes('br-')) {
-                let replacedLine = content[i].replace('br-', 'aaa');
-                code += '    ' + replacedLine;
-            } else {
-                code += content[i];
-            }
-            code += '\n';
+            code += content[i] +'\n';
         }
 
         const classNames = [classes.Card, classes[this.props.className]].join(' ');

@@ -1,8 +1,8 @@
 .Card {
-    display: inline-block;
+    display: flow-root;
     background-color: #fff;
-    margin: 15px;
-    width: 30%;
+    margin: 3em auto;
+    width: 55%;
     border-radius: 5px;
     white-space: pre-wrap;
     word-break: break-word;
